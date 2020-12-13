@@ -8,7 +8,7 @@ from .models import Student
 class CourseNode(DjangoObjectType):
     class Meta:
         model = Course
-        filter_fields = ['name', 'code', 'credit']
+        filter_fields = ['name', 'code', 'credit', 'type']
         interfaces = (relay.Node,)
 
 
