@@ -37,6 +37,7 @@ GRAPHENE = {
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'graphene_django',
+    'phone_field',
     'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
